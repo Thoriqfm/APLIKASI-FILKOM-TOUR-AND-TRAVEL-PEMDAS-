@@ -5,17 +5,29 @@ Aplikasi Filkom Tour and Travel merupakan sistem manajemen untuk unit bisnis tra
 
 ## 🏗️ Struktur Projek
 APLIKASI-FILKOM-TOUR-AND-TRAVEL-PEMDAS/
+
 ├── main/
+
 │ └── Main.java # Class utama aplikasi
+
 ├── model/
+
 │ ├── Karyawan.java # Class model untuk data karyawan
+
 │ └── Mobil.java # Class model untuk data mobil
+
 ├── service/
+
 │ ├── KaryawanService.java # Service untuk mengelola data karyawan
+
 │ └── MobilService.java # Service untuk mengelola data mobil
+
 ├── docs/
+
 │ └── APLIKASI FILKOM TOUR AND TRAVEL.drawio.png # Diagram class
+
 └── README.md # Dokumentasi proyek
+
 
 
 ## 🚀 Fitur Utama
