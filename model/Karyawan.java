@@ -22,7 +22,7 @@ public class Karyawan {
         System.out.println(NamaKaryawan + " telah bekerja sebagai " + KategoriKaryawan);
     }
 
-    // getter method
+    // getter method (enkapsulasi)
     public String getNamaKaryawan() {
         return NamaKaryawan;
     }

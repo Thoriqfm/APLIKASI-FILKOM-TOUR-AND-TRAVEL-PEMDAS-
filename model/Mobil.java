@@ -15,7 +15,7 @@ public class Mobil {
         this.tahunKeluaran = tahunKeluaran;
     }
 
-    // getter method
+    // getter method (enkapsulasi)
     public String getNoPlat() {
         return noPlat;
     }
