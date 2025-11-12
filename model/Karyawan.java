@@ -2,11 +2,11 @@ package model;
 
 public class Karyawan {
 
-    public String NamaKaryawan;
-    public String Alamat;
-    public String NoTelp;
-    public String JenisKelamin;
-    public String KategoriKaryawan;
+    private String NamaKaryawan;
+    private String Alamat;
+    private String NoTelp;
+    private String JenisKelamin;
+    private String KategoriKaryawan;
 
     // constructor
     public Karyawan(String NamaKaryawan, String Alamat, String NoTelp, String JenisKelamin, String KategoriKaryawan) {
