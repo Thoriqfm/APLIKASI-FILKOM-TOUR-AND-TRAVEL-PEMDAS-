@@ -23,14 +23,17 @@ public class Main {
                 KaryawanService karyawanService = new KaryawanService();
                 karyawanService.inputDataKaryawan();
                 karyawanService.cetakDataKaryawan();
+                break;
             }
             case 2: {
                 MobilService mobilService = new MobilService();
                 mobilService.inputDataMobil();
                 mobilService.cetakDataMobil();
+                break;
             }
             default: {
                 System.out.println("Pilihan tidak valid!");
+                break;
             }
         }
 

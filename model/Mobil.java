@@ -2,10 +2,10 @@ package model;
 
 public class Mobil {
 
-    public String noPlat;
-    public String merkMobil;
-    public String warnaMobil;
-    public int tahunKeluaran;
+    private String noPlat;
+    private String merkMobil;
+    private String warnaMobil;
+    private int tahunKeluaran;
 
     // Constructor
     public Mobil(String noPlat, String merkMobil, String warnaMobil, int tahunKeluaran) {
@@ -15,7 +15,7 @@ public class Mobil {
         this.tahunKeluaran = tahunKeluaran;
     }
 
-    // getter method
+    // getter method (enkapsulasi)
     public String getNoPlat() {
         return noPlat;
     }
