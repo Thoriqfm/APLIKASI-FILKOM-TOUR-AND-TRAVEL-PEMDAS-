@@ -22,27 +22,6 @@ public class Karyawan {
         System.out.println(NamaKaryawan + " telah bekerja sebagai " + KategoriKaryawan);
     }
 
-    // getter method (enkapsulasi)
-    public String getNamaKaryawan() {
-        return NamaKaryawan;
-    }
-
-    public String getAlamat() {
-        return Alamat;
-    }
-
-    public String getNoTelp() {
-        return NoTelp;
-    }
-
-    public String getJenisKelamin() {
-        return JenisKelamin;
-    }
-
-    public String getKategoriKaryawan() {
-        return KategoriKaryawan;
-    }
-
     // method untuk menampilkan daftar isi karyawan
     public void displayKaryawan() {
         System.out.println("===== DAFTAR KARYAWAN =====");
@@ -52,6 +31,46 @@ public class Karyawan {
         System.out.println("Jenis Kelamin : " + JenisKelamin);
         System.out.println("Kategori : " + KategoriKaryawan);
         System.out.println("============================");
+    }
+
+    public String getKategoriKaryawan() {
+        return KategoriKaryawan;
+    }
+
+    public void setKategoriKaryawan(String KategoriKaryawan) {
+        this.KategoriKaryawan = KategoriKaryawan;
+    }
+
+    public String getJenisKelamin() {
+        return JenisKelamin;
+    }
+
+    public void setJenisKelamin(String JenisKelamin) {
+        this.JenisKelamin = JenisKelamin;
+    }
+
+    public String getNoTelp() {
+        return NoTelp;
+    }
+
+    public void setNoTelp(String NoTelp) {
+        this.NoTelp = NoTelp;
+    }
+
+    public String getAlamat() {
+        return Alamat;
+    }
+
+    public void setAlamat(String Alamat) {
+        this.Alamat = Alamat;
+    }
+
+    public String getNamaKaryawan() {
+        return NamaKaryawan;
+    }
+
+    public void setNamaKaryawan(String NamaKaryawan) {
+        this.NamaKaryawan = NamaKaryawan;
     }
 
 }
